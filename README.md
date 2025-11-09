@@ -48,3 +48,7 @@ $ git log --oneline
 62daa42 resolve conflict: test them 6
 133b833 (main) main them 7
 ```
+Có thể hiểu là lúc `rebase main` có nghĩa muốn leo lên đầu nhánh khác thì phải giữ, tôn trọng nhánh khác, rồi xét lại mình xem từng có những thay đổi nào (những commit mới) thì phải xử lý từng cái 1 (từ cũ đến commit mới nhất).
+
+Lúc rebase thành công không conflict chú ý nến không thay đổi cùng nhánh main thì nó sẽ fast forward cứ nghĩ an tâm nhưng thật chất đã có thể có sự thay đổi hồi nào không hay
+-> nhánh main chú ý để merge vào lúc này nhé !!!!
